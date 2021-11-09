@@ -1,0 +1,24 @@
+.movie_title-container {
+  width: 80%;
+  margin: 1rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.title-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.title-wrapper:hover {
+  text-decoration: underline;
+}
+
+.fas.fa-star {
+  font-size: 2.5rem;
+}
+.fas.fa-star.true {
+  color: yellow;
+}
